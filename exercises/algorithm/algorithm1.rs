@@ -70,13 +70,34 @@ impl<T> LinkedList<T> {
         }
     }
 	pub fn merge(list_a:LinkedList<T>,list_b:LinkedList<T>) -> Self
+    where
+        T: Ord+Copy,
 	{
-		//TODO
-		Self {
-            length: 0,
-            start: None,
-            end: None,
-        }
+		let mut result=LinkedList::new();
+
+        let mut i=0;
+        let mut j=0;
+         while  i<list_a.length as i32 && j<list_b.length as i32{
+            let a_val=*list_a.get(i).unwrap();
+            let b_val=*list_b.get(j).unwrap();
+
+            if a_val<=b_val{
+                result.add(a_val);
+                i += 1;
+            }else{
+                result.add(b_val);
+                j+=1;
+            }
+         }
+         while i<list_a.length as i32{
+            result.add(*list_a.get(i).unwrap());
+            i += 1;
+         }
+         while j<list_b.length as i32{
+            result.add(*list_b.get(j).unwrap());
+            j += 1;
+         }
+         result
 	}
 }
 
@@ -169,5 +190,6 @@ mod tests {
 		for i in 0..target_vec.len(){
 			assert_eq!(target_vec[i],*list_c.get(i as i32).unwrap());
 		}
-	}
+	}curl https://sh.rustup.rs -sSf | sh
+
 }
