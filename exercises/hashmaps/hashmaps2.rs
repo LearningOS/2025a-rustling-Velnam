@@ -37,9 +37,9 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
     ];
 
     for fruit in fruit_kinds {
-        // TODO: Insert new fruits if they are not already present in the
-        // basket. Note that you are not allowed to put any type of fruit that's
-        // already present!
+        if !basket.contains_key(&fruit) {
+            basket.insert(fruit, 1);
+        }
     }
 }
 
@@ -47,7 +47,6 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
 mod tests {
     use super::*;
 
-    // Don't modify this function!
     fn get_fruit_basket() -> HashMap<Fruit, u32> {
         let mut basket = HashMap::<Fruit, u32>::new();
         basket.insert(Fruit::Apple, 4);
@@ -70,8 +69,7 @@ mod tests {
     fn at_least_five_types_of_fruits() {
         let mut basket = get_fruit_basket();
         fruit_basket(&mut basket);
-        let count_fruit_kinds = basket.len();
-        assert!(count_fruit_kinds >= 5);
+        assert!(basket.len() >= 5);
     }
 
     #[test]
@@ -81,7 +79,7 @@ mod tests {
         let count = basket.values().sum::<u32>();
         assert!(count > 11);
     }
-    
+
     #[test]
     fn all_fruit_types_in_basket() {
         let mut basket = get_fruit_basket();
@@ -91,3 +89,4 @@ mod tests {
         }
     }
 }
+
