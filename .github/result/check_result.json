@@ -1,11 +1,11 @@
 {
   "exercises": [
     {
-      "name": "intro2",
+      "name": "functions3",
       "result": true
     },
     {
-      "name": "functions2",
+      "name": "intro2",
       "result": true
     },
     {
@@ -13,7 +13,7 @@
       "result": true
     },
     {
-      "name": "functions3",
+      "name": "functions4",
       "result": true
     },
     {
@@ -21,7 +21,7 @@
       "result": true
     },
     {
-      "name": "functions4",
+      "name": "functions5",
       "result": true
     },
     {
@@ -29,15 +29,11 @@
       "result": true
     },
     {
-      "name": "functions5",
+      "name": "if1",
       "result": true
     },
     {
       "name": "variables4",
-      "result": true
-    },
-    {
-      "name": "if1",
       "result": true
     },
     {
@@ -61,23 +57,23 @@
       "result": true
     },
     {
-      "name": "traits3",
-      "result": false
-    },
-    {
       "name": "quiz1",
       "result": true
     },
     {
-      "name": "traits4",
-      "result": false
+      "name": "functions2",
+      "result": true
     },
     {
       "name": "primitive_types1",
       "result": true
     },
     {
-      "name": "traits5",
+      "name": "traits3",
+      "result": false
+    },
+    {
+      "name": "traits4",
       "result": false
     },
     {
@@ -85,7 +81,7 @@
       "result": true
     },
     {
-      "name": "quiz3",
+      "name": "traits5",
       "result": false
     },
     {
@@ -93,11 +89,11 @@
       "result": true
     },
     {
-      "name": "lifetimes1",
+      "name": "quiz3",
       "result": false
     },
     {
-      "name": "lifetimes2",
+      "name": "lifetimes1",
       "result": false
     },
     {
@@ -105,11 +101,11 @@
       "result": true
     },
     {
-      "name": "lifetimes3",
+      "name": "lifetimes2",
       "result": false
     },
     {
-      "name": "tests1",
+      "name": "lifetimes3",
       "result": false
     },
     {
@@ -117,16 +113,24 @@
       "result": true
     },
     {
-      "name": "tests2",
-      "result": false
-    },
-    {
-      "name": "tests3",
+      "name": "tests1",
       "result": false
     },
     {
       "name": "primitive_types6",
       "result": true
+    },
+    {
+      "name": "tests2",
+      "result": false
+    },
+    {
+      "name": "vecs1",
+      "result": true
+    },
+    {
+      "name": "tests3",
+      "result": false
     },
     {
       "name": "tests4",
@@ -137,7 +141,7 @@
       "result": false
     },
     {
-      "name": "vecs1",
+      "name": "vecs2",
       "result": true
     },
     {
@@ -145,7 +149,7 @@
       "result": false
     },
     {
-      "name": "vecs2",
+      "name": "move_semantics1",
       "result": true
     },
     {
@@ -153,7 +157,7 @@
       "result": false
     },
     {
-      "name": "move_semantics1",
+      "name": "move_semantics2",
       "result": true
     },
     {
@@ -161,7 +165,7 @@
       "result": false
     },
     {
-      "name": "move_semantics2",
+      "name": "move_semantics3",
       "result": true
     },
     {
@@ -169,7 +173,7 @@
       "result": false
     },
     {
-      "name": "move_semantics3",
+      "name": "move_semantics4",
       "result": true
     },
     {
@@ -177,7 +181,7 @@
       "result": false
     },
     {
-      "name": "move_semantics4",
+      "name": "move_semantics5",
       "result": true
     },
     {
@@ -185,7 +189,7 @@
       "result": false
     },
     {
-      "name": "move_semantics5",
+      "name": "move_semantics6",
       "result": true
     },
     {
@@ -193,15 +197,11 @@
       "result": false
     },
     {
-      "name": "move_semantics6",
-      "result": true
-    },
-    {
-      "name": "cow1",
+      "name": "structs1",
       "result": false
     },
     {
-      "name": "structs1",
+      "name": "cow1",
       "result": false
     },
     {
@@ -213,19 +213,19 @@
       "result": false
     },
     {
-      "name": "threads2",
-      "result": false
-    },
-    {
       "name": "structs3",
       "result": false
     },
     {
-      "name": "threads3",
+      "name": "threads2",
       "result": false
     },
     {
       "name": "enums1",
+      "result": false
+    },
+    {
+      "name": "threads3",
       "result": false
     },
     {
@@ -313,15 +313,11 @@
       "result": false
     },
     {
-      "name": "options3",
-      "result": false
-    },
-    {
       "name": "clippy3",
       "result": false
     },
     {
-      "name": "errors1",
+      "name": "options3",
       "result": false
     },
     {
@@ -329,7 +325,7 @@
       "result": false
     },
     {
-      "name": "errors2",
+      "name": "errors1",
       "result": false
     },
     {
@@ -337,11 +333,15 @@
       "result": false
     },
     {
-      "name": "errors3",
+      "name": "errors2",
       "result": false
     },
     {
       "name": "from_str",
+      "result": false
+    },
+    {
+      "name": "errors3",
       "result": false
     },
     {
@@ -365,6 +365,10 @@
       "result": false
     },
     {
+      "name": "errors6",
+      "result": false
+    },
+    {
       "name": "tests6",
       "result": false
     },
@@ -373,7 +377,7 @@
       "result": false
     },
     {
-      "name": "errors6",
+      "name": "generics1",
       "result": false
     },
     {
@@ -381,15 +385,7 @@
       "result": false
     },
     {
-      "name": "generics1",
-      "result": false
-    },
-    {
       "name": "generics2",
-      "result": false
-    },
-    {
-      "name": "tests9",
       "result": false
     },
     {
@@ -397,7 +393,7 @@
       "result": false
     },
     {
-      "name": "algorithm1",
+      "name": "tests9",
       "result": false
     },
     {
@@ -405,15 +401,15 @@
       "result": false
     },
     {
-      "name": "algorithm2",
-      "result": true
+      "name": "algorithm1",
+      "result": false
     },
     {
       "name": "algorithm6",
       "result": false
     },
     {
-      "name": "algorithm3",
+      "name": "algorithm2",
       "result": true
     },
     {
@@ -421,7 +417,7 @@
       "result": false
     },
     {
-      "name": "algorithm4",
+      "name": "algorithm3",
       "result": true
     },
     {
@@ -429,12 +425,16 @@
       "result": false
     },
     {
-      "name": "algorithm5",
-      "result": false
+      "name": "algorithm4",
+      "result": true
     },
     {
       "name": "algorithm9",
       "result": false
+    },
+    {
+      "name": "algorithm5",
+      "result": true
     },
     {
       "name": "algorithm10",
@@ -444,8 +444,8 @@
   "user_name": null,
   "statistics": {
     "total_exercations": 110,
-    "total_succeeds": 33,
-    "total_failures": 77,
+    "total_succeeds": 34,
+    "total_failures": 76,
     "total_time": 14
   }
 }
